@@ -15,7 +15,7 @@ class Dodgula
 		# Extract nouns, prefixing each with one of the
 		# above adjectives into sentences of 2 words.
 		tagger_str = @tagger.add_tags(str)
-		phrases = @tagger.get_nouns(tagged_str).keys
+		phrases = @tagger.get_nouns(tagger_str).keys
 		phrases = phrases.each_with_index.map do |phrase, i|
 			"#{adjective(i)} #{phrase}."
 		end
