@@ -8,7 +8,7 @@ class Dodgula
 		@tagger = EngTagger.new
 	end
 
-	def self.process(str)
+	def process(str)
 		# Convert input to lowercase
 		str = str.downcase
 
