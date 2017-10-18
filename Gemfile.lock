@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    dodgula (0.0.1)
+    dodgula (0.0.2)
       engtagger
 
 GEM
