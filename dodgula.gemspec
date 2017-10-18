@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["thecodenomad@gmail.com"]
 
   spec.summary       = %q{Convert everyday boring English into doge speak!}
-  spec.homepage      = "English to doge translations"
+  spec.homepage      = "https://github.com/codiusnomadus/dodgula"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
